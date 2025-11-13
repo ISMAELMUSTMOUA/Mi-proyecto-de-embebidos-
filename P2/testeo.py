@@ -13,6 +13,7 @@ class Dato(ctypes.Structure):
     ]
 
 
+
 if punto_fijo:
     so_path = "./libcalcl_tams.so"
     if not os.path.exists(so_path):
